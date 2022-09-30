@@ -1,0 +1,6 @@
+Comandos uteis
+git clone
+git status
+cd
+ls
+dir
