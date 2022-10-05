@@ -1,0 +1,15 @@
+comandos git para comit github
+
+git clone e o link(primeira vez na pasta se não faça o proximo passo)
+
+git status
+
+git add .
+
+git status
+
+git commit -m "msg"
+
+git push origin main ou master
+
+
