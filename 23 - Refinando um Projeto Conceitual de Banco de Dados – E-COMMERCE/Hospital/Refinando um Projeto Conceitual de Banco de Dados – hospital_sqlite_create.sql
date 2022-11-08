@@ -1,0 +1,23 @@
+CREATE TABLE Paciente (
+	IdPaciente binary PRIMARY KEY AUTOINCREMENT
+);
+
+CREATE TABLE Medico (
+	IdMedico binary PRIMARY KEY AUTOINCREMENT
+);
+
+CREATE TABLE Exame (
+	IdExame integer PRIMARY KEY AUTOINCREMENT
+);
+
+CREATE TABLE Consulta (
+	IdConsulta binary PRIMARY KEY AUTOINCREMENT,
+	IdMedico binary PRIMARY KEY AUTOINCREMENT,
+	IdExame binary PRIMARY KEY AUTOINCREMENT,
+	IdPaciente binary PRIMARY KEY AUTOINCREMENT
+);
+
+
+
+
+
