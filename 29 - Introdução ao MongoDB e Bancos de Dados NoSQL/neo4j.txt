@@ -1,0 +1,20 @@
+https://sandbox.neo4j.com/
+
+-- comandos
+
+CREATE (:Client {name: 'Lula Molusco', age: 30, hobbies: ['Tocar clarinete']}) - [:Bloqueado]—>(:Client {name:'Patrick', hobbies: ['Cacar agua viva']})
+MATCH (todos) RETURN todos;
+MATCH (lula:Client {name:"Lula Molusco"}), (patrick:Client {name:"Patrick"}) CREATE (lula)-[:Bloqueado]—>(patrick)
+MATCH (todos) RETURN todos;
+MATCH (Lula:Client {name: "Lula Molusco"})-[relaciona:Bloqueado]-() DELETE relaciona
+MATCH (todos) RETURN todos;
+MATCH (lula:Client {name: "Lula Molusco"}) DELETE lula;
+MATCH (todos) RETURN todos;
+MATCH (patrick:Client {name: 'Patrick'}) SET patrick.hobbies = ['Cacar agua viva'];
+MATCH (todos) RETURN todos;
+MATCH(patrick:Client {name: "Patrick"}) SET patrick:Client_Premium
+MATCH (todos) RETURN todos;
+MATCH (n) RETURN n LIMIT 25
+MATCH (n:Client) RETURN n LIMIT 25
+MATCH (n:Client_Premium) RETURN n LIMIT 25
+MATCH (todos) RETURN todos;

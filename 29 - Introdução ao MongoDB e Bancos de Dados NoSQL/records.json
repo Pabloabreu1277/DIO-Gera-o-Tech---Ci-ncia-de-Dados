@@ -1,0 +1,42 @@
+﻿[
+  {
+    "todos": {
+"identity": 0,
+"labels": [
+        "Client"
+      ],
+"properties": {
+"hobbies": [
+          "Caca agua-viva, Comer
+hamburgues"
+        ],
+"name": "Bob Esponja",
+"age": 28
+      }
+    }
+  },
+  {
+    "todos": {
+"identity": 2,
+"labels": [
+        "Client",
+        "Client_Premium"
+      ],
+"properties": {
+"hobbies": [
+          "Cacar agua viva"
+        ],
+"name": "Patrick"
+      }
+    }
+  },
+  {
+    "todos": {
+"identity": 3,
+"labels": [],
+"properties": {
+
+      }
+    }
+  }
+]
